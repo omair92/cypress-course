@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "test": "node_modules\\.bin\\cypress run",
+    "runtests": "npm run test --"
+  },
+  "devDependencies": {
+    "cypress": "^12.17.4"
+  },
+  "dependencies": {
+    "cypress-axe": "^1.4.0",
+    "cypress-file-upload": "^5.0.8",
+    "cypress-xpath": "^2.0.1",
+    "lodash": "^4.17.21",
+    "mathjs": "^11.9.1",
+    "moment": "^2.29.4"
+  }
+}
